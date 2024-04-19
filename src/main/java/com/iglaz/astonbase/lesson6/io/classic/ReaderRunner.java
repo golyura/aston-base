@@ -23,5 +23,6 @@ public class ReaderRunner {
             int number = input.nextInt();
         }
 
+        input.close();
     }
 }

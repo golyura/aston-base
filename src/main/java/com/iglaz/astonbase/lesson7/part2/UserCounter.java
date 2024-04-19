@@ -8,9 +8,9 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 10 -> 10 -> 11
  */
 public class UserCounter {
-    private AtomicInteger counter = new AtomicInteger();
+    private AtomicInteger counter = new AtomicInteger(0);
 
-    void increment() {
+     void increment() {
         counter.incrementAndGet();
     }
 
